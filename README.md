@@ -50,3 +50,21 @@ It is also possible to use another encoding scheme or other alphabets, using the
 ```
 
 The keys of `Proquint.ALPHABET` are those used in `Proquint.CONSTRUCTION`, and the values are tuples containing the alphabet and the length of bits that are encoded using a symbol of the alphabets.
+
+## Installation
+
+It's possible to use `pip` to install this library. Example to install `proquint` inside a python virtual environment:
+
+```shell
+$ python3 -m venv /tmp/venv
+
+$ source /tmp/venv/bin/activate
+
+$ pip install .
+Processing /code/proquint
+  Preparing metadata (setup.py) ... done
+Installing collected packages: Proquint
+  Running setup.py install for Proquint ... done
+Successfully installed Proquint-1.0
+```
+
